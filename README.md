@@ -138,5 +138,5 @@ In that example, client sent a list of books in ```books``` and rules of sort in
 In that example, first it be sort by author and second by title. If client send a request without ```rules``` json field a error will occur and API reply error message:
 
 ```json
-{'rules': ["This field is required."]}
+{"rules": ["This field is required."]}
 ```
