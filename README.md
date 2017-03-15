@@ -90,7 +90,7 @@ Sending a JSON data format like this:
 });
 ```
 
-Reply must be a ```HTTP 201``` and ```json``` of sorted book list like this:
+The reply from API  must be a ```HTTP 201``` and ```json``` of sorted book list like this:
 ```json
 [{"title":"Head First Design Patterns","author":"Elisabet Freeman","year":"2004"},{"title":"Internet & World Wide: How to program","author":"Deitel & Deitel","year":"2007"},{"title":"Java how to program","author":"Deitel & Deitel","year":"2007"},{"title":"Patterns of Enterprise Aplication Architeture","author":"Martin Fowler","year":"2002"}]
 ```
